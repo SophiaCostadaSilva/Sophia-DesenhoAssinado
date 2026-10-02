@@ -3,7 +3,7 @@
 // A tarefa consiste em levar gerarDesenho para o servidor (Pages Functions)
 // e fazer esta pagina apenas enviar o numero e exibir a resposta.
 
-import { gerarDesenho, numeroValido } from "./desenho.js";
+import { gerarDesenho, numeroValido } from "../lib/desenho.js";
 
 const formulario = document.getElementById("formulario");
 const campoNumero = document.getElementById("numero");
