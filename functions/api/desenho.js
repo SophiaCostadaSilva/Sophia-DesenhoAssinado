@@ -1,4 +1,4 @@
-import { gerarDesenho, numeroValido } from "../lib/desenho.js";
+import { gerarDesenho, numeroValido } from "../../lib/desenho.js";
 
 export async function onRequest(context) {
   const { request, env } = context;
